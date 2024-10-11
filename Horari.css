@@ -10,7 +10,7 @@ table, th, td {
 }
 caption{
     text-align: center;
-    size: 25px;
+    font-size: 25px;
     color: rgb(160, 214, 131);
   }
 th{
@@ -21,16 +21,15 @@ th{
     padding: 30px;
     font-size: 25px;
   }
-  html{
-    font-family: Verdana;
-  }
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .center {
   margin-left: auto;
   margin-right: auto;
 }
 .LMSGI{
     background-color:#bb0a21;
-    font-family:'Gill Sans';
 }
 .BD{
     background-color:rgb( 142, 68, 173 );
