@@ -6,25 +6,31 @@ h1{
 table, th, td {
     border:1px solid black;
     border-collapse: collapse;
+    text-align: center;
 }
+caption{
+    text-align: center;
+    size: 25px;
+    color: rgb(160, 214, 131);
+  }
+th{
+    background-color: rgb(211, 238, 152);
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    padding: 30px;
+    font-size: 25px;
+  }
+  html{
+    font-family: Verdana;
+  }
 .center {
   margin-left: auto;
   margin-right: auto;
 }
-caption{
-  text-align: center;
-  size: 25px;
-  color: rgb(160, 214, 131);
-}
-th{
-  background-color: rgb(211, 238, 152);
-  font-weight: bold;
-  text-align: center;
-  width: 100px;
-}
-
 .LMSGI{
     background-color:#bb0a21;
+    font-family:'Gill Sans';
 }
 .BD{
     background-color:rgb( 142, 68, 173 );
@@ -46,4 +52,13 @@ th{
 }
 .IPOI{
     background-color:rgb(100, 30, 22);
+}
+#descans{
+    font-size: 20px;
+    padding: 15px;
+}
+.hores{
+    font-size: 20px;
+    padding: 10px;
+    width: 180px;
 }
